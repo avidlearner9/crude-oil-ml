@@ -20,5 +20,18 @@ With plans to pursue further study in data science and machine learning, I wante
 
 ## Project Status
 
-**Work in progress.**
-Current stage: Data collection and exploratory analysis.
+**Status: In Progress — October 2026**
+
+### Completed
+- Collected six datasets from the U.S. Energy Information Administration (EIA) and Federal Reserve Economic Data (FRED), spanning as far back as 70 years but most likely being restricted to around 30 years.
+- Created a Jupyter notebook documenting data sources and initial inspection.
+- Cleaned and validated WTI crude-oil prices and U.S. commercial crude-oil inventory data using Pandas.
+- Standardised column names, converted data types and checked for missing values and duplicate dates.
+- Exported cleaned datasets to `data/processed/`.
+
+### In Progress / Planned
+- Clean the remaining energy-market and macroeconomic datasets.
+- Align daily and weekly observations into a consistent time-series dataset.
+- Perform exploratory data analysis and visualise the relationships between all the datasets.
+- Design features for market-regime identification and volatility analysis.
+- Develop machine-learning models using chronological train-test splits and appropriate analytical comparisons.
